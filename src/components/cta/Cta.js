@@ -1,8 +1,8 @@
 import React from 'react'
-import {CancelCta} from "../Button/ButtonTypes/CancelCta"
-import {JoinCta} from "../Button/ButtonTypes/JoinCta"
-import {SubscribeCta} from "../Button/ButtonTypes/SubscribeCta"
-import {DisableCta} from "../Button/ButtonTypes/DisableCta"
+import {CancelCta} from "./CtaTypes/CancelCta"
+import {JoinCta} from "./CtaTypes/JoinCta"
+import {SubscribeCta} from "./CtaTypes/SubscribeCta"
+import {DisableCta} from "./CtaTypes/DisableCta"
 
 export const Cta = (props) => {
     const { type } = props;

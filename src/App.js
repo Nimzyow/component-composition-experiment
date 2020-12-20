@@ -1,5 +1,5 @@
 import './App.css';
-import {Cta} from "./public/button/components/Button/Cta"
+import {Cta} from "./components/cta/Cta"
 
 function App() {
   return (
