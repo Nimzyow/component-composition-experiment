@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import {Cta} from "./public/button/components/Button/Cta"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+      <Cta type={"cancelCta"} />
+      <Cta type={"joinCta"}/>
+      <Cta type={"subscribeCta"}/>
+      <Cta type={"disableCta"}/>
+      </div>
     </div>
   );
 }
 
 export default App;
+
